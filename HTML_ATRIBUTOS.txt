@@ -1,0 +1,53 @@
+Etiquetas
+<html>Siempre deben ir a inicio y fin del documento<html/>
+<head> contiene las etiquetas de los elementos no visuales, tambien llamados de JS, entre otros</head>
+<title>Nombre de la pagina(Va en el head)</title>
+<body> Aqui van las etiquetas con elementos visuales, enlaces, etc</body>
+<p> Parrafo</p>
+<br>Salto de linea</br>
+*Tambien se pueden tener metiquetas dentro de las etiquetas por ejemplo:
+	<p> Primer renglon <br/>Segundo renglon</p>
+<hr>Linea continua</hr>
+<center><center/> Sirve para centrar etiquetas, como por ejemplo <img>
+<img src="imagen.jpg" />	--> trae la imagen de source, se le puede colocar atributos
+<a href="">Cuando se de clic sobre este mensaje, se redireccionará hacia la url referenciada en el atributo href de la etiqueta</a>
+<ol>Lista ordenada (Numeros)</ol>	Genera una lista sobre los elementos hijos
+<ul>Lista desordenada (Puntos)</ul> Genera una lista sobre los elementos hijos
+<li> Va dentro de ol o ul </li> Ejemplo:
+	<ul>
+		<li>Mensaje 1</li>
+		<li>Mensaje 2</li>
+	</ul>
+<b>texto aqui adentro va en negrita</b>
+<i>texto aqui adentro va en cursiva</i>
+<del>texto aqui adentro va tachada</del>
+<table></table> 	--> tabla, se debe incluir etiquetas hijas para filas y columnas
+<td></td>	--> Columnas
+<tr></tr>	--> Filas
+Ejemplo
+<table>
+	<tr>
+		<td>Columna 1 fila 1<td>
+		<td>Columna 2 Fila 2<td>
+		<td>Columna 3 fila 3<td>
+	</tr>
+</table>
+
+<form></form>	--> se utliza para hacer reenvios a traves de metodos get y post, tambien solo para encapsular etiquetas con valores
+<input></input> --> etiqueta de tipo entrada, es decir , espacio donde se pueden ingresar valores, Estos tienen tipos de input, por ejemplo
+<input type="text" name="Usuario">User</input>
+<input type="password" name="Contraseña">Pass</input>
+<input type="radio" name="Usuario">Ejemplo Radio</input>
+<input type="checkbox" name="EjemploCheck">Ejemplo CheckBox</input>
+<input type="submit" value="Enviar"></input>
+
+Atributos sobre las etiquetas
+colspan = "3"  			--> Se unen tres columnas (Usado en <td>)
+rowspan = "2"			--> Se unen dos filas	(Usado en <td>)
+border = "5px"			--> borde de la etiqueta
+width = "50px"			--> 50 pixeles de anchura
+width = "50%"  			--> 50 % del valor original
+heigth= "50px"			--> 50 pixeles de anchura
+heigth= "50%"  			--> 50 % del valor original
+target= "_blank"		--> se usa para <a>, cuando redirecciona lo hace sobre una pestaña nueva, no sobre la misma
+alt   = "Mensaje a aparece"     --> mensaje que aparece cuando el cursosr està sobre la etiqueta con este atributo

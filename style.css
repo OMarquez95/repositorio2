@@ -1,0 +1,23 @@
+        #contenedor{
+        width: 1300px;
+        height: 1000px;
+        margin: 0.5em auto; /* centrar el contenido dentro de las margenes */
+        padding: 0.5em;
+        }
+        .wrapper {
+        overflow: hidden;
+        }
+        .left {
+            float:left;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .center {
+            display:inline-block;
+            margin:auto;
+        }
+
+        .right {
+            float:right;
+            font-family: 'Courier New', Courier, monospace;
+        }

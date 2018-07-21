@@ -1,0 +1,10 @@
+t + clic --> texto
+control + j   --> desaparece menu lateral  o aparece
+Seleccionar debajo de un wirefram, y dar la tecla tab, lo convertirà en hijo del inmediatamente anterior, para deshacer esto se usa Shift+tab
+r + clic sostenido --> recuadro
+control + alt + 1 --> alineacion izaquierda
+control + alt + 2 --> alineacion centro
+control + alt + 3 --> alineacion derecha
+control + alt + 4 --> alineacion superior
+control + alt + 5 --> alineacion inferior
+y + clic sostenid --> linea de texto
